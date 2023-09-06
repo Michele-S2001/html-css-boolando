@@ -3,3 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/*  COLOR PALETTE  */
+:root {
+    --orange: #ff6900;
+    --green: #008000;
+    --red: #ff0000;
+    --white: #fff;
+}
