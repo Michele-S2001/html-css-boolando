@@ -53,6 +53,33 @@ a {
     justify-content: space-between;
 }
 
+.align-center {
+    align-items: center;
+}
+
 .white-text {
     color: var(--white);
+}
+
+/* HEADER STYLING SECTION */
+.page-header {
+    background-color: var(--orange);
+    padding: 20px 10px;
+    font-weight: 700;
+}
+
+.nav-genders {
+    display: flex;
+}
+
+.nav-genders .nav-gender:not(:last-child) > a {
+    padding-right: 15px;
+}
+
+.page-header .boolean-icon {
+    max-width: 120px;
+}
+
+.nav-icons .favorites {
+    padding: 0 10px;
 }
