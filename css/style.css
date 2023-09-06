@@ -34,3 +34,25 @@ a {
     --white: #fff;
 }
 
+/* UTILITY CLASSES  */
+
+.container {
+    max-width: 880px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-space-between {
+    justify-content: space-between;
+}
+
+.white-text {
+    color: var(--white);
+}
