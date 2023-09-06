@@ -11,6 +11,7 @@ body {
 
 img {
     max-width: 100%;
+    display: block;
 }
 
 ul,
@@ -43,6 +44,7 @@ a {
 
 .row {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .justify-center {
@@ -59,6 +61,14 @@ a {
 
 .white-text {
     color: var(--white);
+}
+
+.col {
+    padding: 10px;
+}
+
+.col-4 {
+    flex-basis: calc((100% / 12) * 4);
 }
 
 /* HEADER STYLING SECTION */
@@ -82,4 +92,68 @@ a {
 
 .nav-icons .favorites {
     padding: 0 10px;
+}
+
+/* PAGE CONTENT STYLING SECTION */
+.page-content {
+    padding: 40px 10px;
+}
+
+.product-card {
+    position: relative;
+    font-size: 10px;
+}
+
+.product-description {
+  font-size: 13px;  
+}
+
+.product-sticker {
+    position: absolute;
+    font-weight: 700;
+}
+
+.product-sticker.sales-rate {
+    bottom: 20px;
+    left: 0;
+    background-color: var(--red);
+    color: var(--white);
+    padding: 3px 5px;
+}
+
+.product-sticker.eco-tag {
+    bottom: 20px;
+    left: 37px;
+    background-color: var(--green);
+    color: var(--white);
+    padding: 3px 5px;
+}
+
+.product-sticker.like-button {
+    top: 5px;
+    right: 0;
+    background-color: var(--white);
+    padding: 5px;
+    font-size: 20px;
+}
+
+.product-sticker.like-button:hover {
+    color: var(--red);
+}
+
+.product-card + .product-description .label {
+    display: block;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.product-description .sales-price {
+    color: var(--red);
+    font-weight: 800;
+    font-size: 12px;
+}
+
+.product-description .original-price {
+    text-decoration: line-through;
+    font-size: 12px;
 }
