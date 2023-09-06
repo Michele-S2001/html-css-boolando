@@ -65,11 +65,12 @@ a {
 }
 
 .col {
-    padding: 10px 10px 30px 10px;
+    padding: 10px;
 }
 
 .col-4 {
     flex-basis: calc((100% / 12) * 4);
+    padding-bottom: 30px;
 }
 
 /* HEADER STYLING SECTION */
