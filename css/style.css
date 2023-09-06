@@ -103,6 +103,7 @@ a {
 .product-card {
     position: relative;
     font-size: 10px;
+    margin-bottom: 5px;
 }
 
 .product-description {
