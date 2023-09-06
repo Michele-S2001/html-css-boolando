@@ -164,6 +164,17 @@ a {
     font-size: 12px;
 }
 
+/* PAGE CONTENT :HOVER STATE STYLING SECTION */
+.product-card .product-image-hover {
+    position: absolute;
+    top: 0;
+    opacity: 0;
+}
+
+.product-card:hover .product-image-hover {
+    opacity: 1;
+}
+
 /* FOOTER SECTION */
 .page-footer {
     background-color: var(--grey);
