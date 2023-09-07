@@ -172,7 +172,7 @@ a {
     opacity: 0;
 }
 
-.product-card:hover .product-image-hover {
+.col:hover .product-image-hover {
     opacity: 1;
 }
 
