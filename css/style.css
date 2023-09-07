@@ -179,7 +179,6 @@ a {
 /* FOOTER SECTION */
 .page-footer {
     background-color: var(--grey);
-    color: var(--white);
     padding: 20px 10px;
 }
 
